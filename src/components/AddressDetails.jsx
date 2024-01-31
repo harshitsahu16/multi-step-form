@@ -27,7 +27,7 @@ const AddressDetails = ({ onPrev, onNext, values, handleChange }) => {
 };
   return (
     <div className="w-1/2 mx-auto border p-6 mt-16 rounded-md border-neutral-900 shadow-sm flex flex-col items-center">
-      <h2 className="text-4xl font-semibold mb-8">Address Details</h2>
+      <h2 className="sm:text-2xl md:text-3xl lg:text-4xl">Address Details</h2>
       <form className="flex flex-col w-full gap-4">
         <label className="flex flex-col mb-4 w-full">
           <span className="text-lg text-gray-800 mb-2">Address Line 1 :</span>
